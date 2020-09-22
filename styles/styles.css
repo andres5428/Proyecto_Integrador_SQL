@@ -1,0 +1,90 @@
+body .ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border: solid 1px red;
+}
+
+body .container .band_Container {
+  margin: 16px;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: solid 1px blue;
+}
+
+body .container .band_Container > input {
+  margin: 5px;
+}
+
+body .container .band_Container > label {
+  text-align: center;
+}
+
+body .container .band_Container > h3 {
+  text-align: center;
+}
+
+body .container .album_Container {
+  margin: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+  border: solid 1px blue;
+}
+
+body .container .album_Container > input {
+  margin: 5px;
+}
+
+body .container .album_Container > label {
+  text-align: center;
+}
+
+body .container .album_Container > h3 {
+  text-align: center;
+}
+
+body .container .song_Container {
+  margin: 16px;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: solid 1px blue;
+}
+
+body .container .song_Container > input {
+  margin: 5px;
+}
+
+body .container .song_Container > label {
+  text-align: center;
+}
+
+body .container .song_Container > h3 {
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */

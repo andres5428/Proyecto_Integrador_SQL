@@ -1,0 +1,59 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Sequelize</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <ul class="ul">
+        <li>Get all<input type="radio" class="get_All" name="method" checked></li> 
+        <li>Post<input type="radio" class="Post" name="method"></li>
+        <li>Put - Modify<input type="radio" class="put" name="method"></li>
+        <li>Delete<input type="radio" class="delete_method" name="method"></li>
+    </ul>
+    <section class="container">
+
+        <div class="band_Container"">
+            <h3>Usuarios</h3>
+            <label for = "band_Name"> Nombre del usuario</label>
+            <input type="text" class="band_Name" id="band_Name">
+            <label for="band_Members"> Contraseña</label>
+            <input type="password" class="band_Members" id="band_Members">
+            <label for="band_StartDate"> Nombre</label>
+            <input type="text" class="band_StartDate" id="band_StartDate">
+            <label for=" band_Country"> Apellido</label>
+            <input type="text" class="band_Country" id="band_Country">
+            <label for=" band_Number"> Número telefónico</label>
+            <input type="text" class="band_Number" id="band_Number">
+            <button class="btn_band">Enviar</button>
+        </div>
+        <div class="album_Container">
+            <h3>Crea tu articulo</h3>
+            <label for = "album_Name"> Nombre del articulo</label>
+            <input type="text" class="album_Name" id="album_Name">
+            <label for = "album_band"> Precio</label>
+            <input type="text" class="album_band" id="album_band">
+            <label for = "album_publishDate"> Estado</label>
+            <input type="text" class="album_publishDate" id="album_publishDate">
+            <button class="btn_Album">Enviar</button>
+        </div>
+        <div class="song_Container">
+            <h3>Canciones</h3>
+            <label for = "song_Name"> Nombre de la canción</label>
+            <input type="text" class="song_Name" id="song_Name">
+            <label for = "song_Duration"> Duración de la canción</label>
+            <input type="text" class="song_Duration" id="song_Duration">
+            <label for = "song_Album"> Album de la canción</label>
+            <input type="text" class="song_Album" id="song_Album">
+            <label for = "song_Band"> Banda de la canción</label>
+            <input type="text" class="song_Band" id="song_Band">
+            <button class="btn_Song">Enviar</button>
+        </div>
+    </section>
+    <script src="../UI/index.js" type="module"></script>
+</body>
+
+</html>
